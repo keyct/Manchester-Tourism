@@ -1,0 +1,334 @@
+html,body {
+margin: 0;
+padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Header */
+
+header {
+  background-color: #383838;
+  width: 100%;
+  height: 150px;
+  border-bottom: solid white;
+  border-width: 5px;
+  position: fixed;
+  top: 0;
+  opacity: 1.0;
+}
+
+header h1{
+  font-family: Verdana;
+  font-size: 45px;
+  font-style: italic;
+  color: #ffffff;
+  padding-top: 50px;
+  padding-left: 20px;
+  margin: 0;
+  display: inline-block;
+  letter-spacing: 1px;
+}
+
+/* Nav */
+
+header nav {
+  float: right;
+  margin-right: 20px;
+  padding-top: 95px;
+  padding-right: 10px;
+  word-spacing: 10px;
+}
+
+nav li {
+  display: inline;
+  letter-spacing: 0.6px;
+  font-weight: 400;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+nav li a {
+  color: #ffffff;
+  font-family: Arial;
+}
+
+nav li a:hover{
+  color: #ffffff;
+  font-weight: bold;
+
+}
+
+nav li a:link{
+  text-decoration: none;
+}
+
+/* Start of Body */
+
+body {
+  margin-top: 150px;
+  background-color: #BEBEBE;
+}
+
+/* Global Showcase*/
+
+#showcase {
+  padding-left: 20px;
+  background-color: #ffffff;
+  height: 35px;
+  border-bottom: 2px solid #787878;
+}
+
+#showcase h2 {
+  font-style: italic;
+  font-family: Trebuchet MS;
+}
+
+/* Main Content*/
+
+main {
+  margin-top: 30px;
+}
+
+#blog {
+  padding: 1px 20px;
+  background-color: #383838;
+  border-top: 5px solid #ffffff;
+  border-bottom: 5px solid #ffffff;
+  margin-bottom: 40px;
+}
+
+#blog p {
+  font-family: Helvetica;
+  font-weight: 400;
+  font-size: 25px;
+  text-align: center;
+  color: #ffffff;
+}
+
+figure img {
+  display: block;
+  height: 620px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-bottom: 10px;
+  margin-right: auto;
+  width: 55%;
+  border-radius: 15% 15% 15% 15%;
+  border: white solid;
+  border-width: 5px;
+  padding: 5px;
+  background-color: #383838;
+}
+
+figure figcaption {
+  font-family: Helvetica;
+  font-weight: bolder;
+  text-align: center;
+  padding-bottom: 70px;
+  color:  #383838;
+  clear: both;
+}
+
+img.hull {
+  display: inline-block;
+  height: 750px;
+  width: 80%;
+  border-radius: 15% 0% 0% 15%;
+  border: white solid;
+  border-width: 5px 0px 5px 5px;
+  float: right;
+  padding: 5px 0px 5px 5px;
+  background-color: #383838;
+}
+
+p.caption {
+  clear: both;
+  text-align: center;
+  font-family: Helvetica;
+  font-weight: bolder;
+  color:  #383838;
+  padding: 10px 0px 10px;
+}
+
+img.rounded {
+  border-radius: 0% 15% 15% 0%; 
+  border: white solid;
+  border-width: 5px 5px 5px 0px;
+  padding: 5px 5px 5px 0px;
+  background-color: #383838;
+}
+
+#media {
+  padding-bottom: 30px;
+  clear: both;
+}
+
+#media h2 {
+  padding-left: 15px;
+  color:  #ffffff;
+  font-size: 35px;
+  font-family: Helvetica;
+}
+
+#media p {
+  padding-left: 15px;
+  padding-bottom: 20px;
+  font-family: Helvetica;
+  color: #ffffff;
+}
+
+#showcase2 {
+  height: 35px;
+  background-color: #ffffff;
+  border-top: 2px solid #787878;
+  top: 0;
+  clear: both;
+}
+
+div.sky {
+  background-color: #383838;
+  border-top: 5px solid #ffffff;
+  border-bottom: 5px solid #ffffff;
+  margin-bottom: 40px;
+}
+
+section img {
+  width: 75%;
+}
+
+/* Footer */
+
+footer {
+  background-color: #383838;
+  border-top: solid white;
+  border-width: 5px;
+  margin: auto;
+  height: 150px;
+  padding-top: 30px;
+  bottom: 0;
+  width: 100%;
+  font-style: italic;
+  clear: both;
+}
+
+footer p {
+  color: #ffffff;
+  font-family: Arial;
+  text-align: center;
+  font-weight: lighter;
+  font-size: 20px;
+  margin-bottom: 70px;
+  line-height: 1.3;
+  position: relative;
+  top: 10px;
+  font-style: italic;
+}
+
+#blog2 {
+  background-color: #383838;
+  border-top: 5px solid #ffffff;
+  border-bottom: 5px solid #ffffff;
+  margin-bottom: 40px;
+}
+
+#blog2 p {
+  font-family: Helvetica;
+  font-size: 20px;
+  text-align: center;
+  color: #ffffff;
+  padding: 10px 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+/* Parks Page */
+
+div.gallery {
+  width: 100;
+}
+
+div.gallery1 {
+  display: inline-block;
+  margin: 15px 15px 15px 20px;
+  float: left;
+}
+
+div.gallery2 {
+  display: inline-block;
+  margin: 15px;
+  float: left;
+}
+
+div.gallery3 {
+  display: inline-block;
+  margin: 15px;
+  float: left;
+}
+
+div.gallery4 {
+  display: inline-block;
+  margin: 15px 15px 15px 20px;
+  float: left;
+  clear: both;
+}
+
+div.gallery5 {
+  display: inline-block;
+  margin: 15px;
+  float: left;
+}
+
+div.gallery6 {
+  display: inline-block;
+  margin: 15px;
+  float: left
+}
+
+img.galleryborder {
+  border-radius: 15% 15% 15% 15%;
+  border: #ffffff solid;
+  border-width: 5px;
+  padding: 5px;
+  background-color: #383838;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  font-family: Trebuchet MS;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+/* Dining Page */
+
+div.list {
+  color: #ffffff;
+  font-family: Trebuchet MS;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 50px;
+  background-color: #383838;
+  border-top: 5px solid #ffffff;
+  border-bottom: 5px solid #ffffff;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Contact Page */
+
+#showcase3 {
+  height: 35px;
+  background-color: #ffffff;
+  border-top: 2px solid #787878;
+  top: 0;
+  margin-top: 600px;
+}
+
+
+
